@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 void main()
 {
     char com[30];
@@ -30,5 +31,5 @@ void main()
     }
     else
         printf("\n It is not a comment");
-    //getch();
+    getch();
 }
