@@ -2,6 +2,7 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
+#include<conio.h>
 void main()
 {
 char s[20],c;
@@ -71,5 +72,5 @@ else if((state==2)||(state==4))
 printf("\n %s is accepted under rule 'a*b+'",s);
 else if(state==5)
 printf("\n %s is accepted under rule 'abb'",s);
-//getch();
+getch();
 }
