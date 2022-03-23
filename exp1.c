@@ -1,6 +1,7 @@
 #include<string.h>
 #include<ctype.h>
 #include<stdio.h>
+#include<conio.h>
 void keyword(char str[10])
 {
     if(strcmp("for",str)==0||strcmp("while",str)==0||strcmp("do",str)==0||
@@ -19,11 +20,14 @@ void main()
     FILE *f1,*f2,*f3;
     char c,str[10],st1[10];
     int num[100],lineno=0,tokenvalue=0,i=0,j=0,k=0;
-    printf("\nEnter the c program");/*gets(st1);*/
-
+    printf("\nEnter the c program");//gets(st1);/
+		//f1=fopen("input","w");
+	//while((c=getchar())!=EOF){
+		//putc(c,f1);
+	//}
     f1=fopen("input","r");
-    f2=fopen("identifier","w");
-    f3=fopen("specialchar","w");
+    f2=fopen("id","w");
+    f3=fopen("sc","w");
     while((c=getc(f1))!=EOF)
     {
         if(isdigit(c))
@@ -92,4 +96,6 @@ void main()
     }
     fclose(f3);
     printf("Total no. of lines are: %d",lineno);
+	getch();
+
 }
