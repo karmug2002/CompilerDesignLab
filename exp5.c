@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 void main()
 {
     char s[5];
@@ -90,5 +91,6 @@ void main()
         default: printf("\n Not a operator");
 
     }
+    getch();
 
 }
