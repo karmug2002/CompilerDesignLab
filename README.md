@@ -1,1 +1,3 @@
-# CompilerDesighLab
+# CompilerDesignLab
+
+##Thug Life
