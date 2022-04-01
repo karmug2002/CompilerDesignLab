@@ -64,15 +64,15 @@ void main()
     fclose(f2);
     fclose(f3);
     fclose(f1);
-    printf("\nThe no's in the program are");
+    printf("\n The no's in the program are: ");
     for(j=0;j<i;j++)
     {
         printf("%d",num[j]);
         printf("\n");
     }
-    f2=fopen("identifier","r");
+    f2=fopen("id","r");
     k=0;
-    printf("The keywords and identifiersare:");
+    printf("\n The keywords and identifiers are: ");
     while((c=getc(f2))!=EOF)
     {
         if(c!=' ')
@@ -87,8 +87,8 @@ void main()
         }
     }
     fclose(f2);
-    f3=fopen("specialchar","r");
-    printf("\nSpecial characters are");
+    f3=fopen("sc","r");
+    printf("\n Special characters are: \n");
     while((c=getc(f3))!=EOF)
     {
     printf("%c",c);
