@@ -7,8 +7,7 @@ void main()
 {
 clrscr();
 printf("\nRecursive descent parsing for the following grammar\n"); 
-printf("\nE->TE'\nE'-
->+TE'/@\nT->FT'\nT'->*FT'/@\nF->(E)/ID\n"); 
+printf("\nE->TE'\nE'->+TE'/@\nT->FT'\nT'->*FT'/@\nF->(E)/ID\n"); 
 printf("\nEnter the string to be checked:"); 
 gets(input);
 if(E())
