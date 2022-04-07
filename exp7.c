@@ -7,7 +7,7 @@ char prod[7][10]={"S->A","A->Bb","A->Cd","B->aB","B->@","C->Cc","C->@"};
 char first[7][10]={"abcd","ab","cd","a@","@","c@","@"};
 char follow[7][10]={"$","$","$","a$","b$","c$","d$"};
 char table[5][6][10];
-/*
+
 numr(char c)
 {
 switch(c)
@@ -23,7 +23,7 @@ case 'd': return 3;
 case '$': return 4;
 }
 return(2);
-}*/
+}
 void main()
 {
 int i,j,k;
