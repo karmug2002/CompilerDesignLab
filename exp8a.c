@@ -23,7 +23,6 @@ void main()
          {
              i--; 
              j++;  
-             
          } 
          switch(stack[i])
          {
