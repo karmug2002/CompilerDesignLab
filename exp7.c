@@ -13,15 +13,15 @@ numr(char c)
 {
     switch(c)
     {
-    case 'S': return 0;
-    case 'A': return 1;
-    case 'B': return 2;
-    case 'C': return 3;
-    case 'a': return 0;
-    case 'b': return 1;
-    case 'c': return 2;
-    case 'd': return 3;
-    case '$': return 4;
+        case 'S': return 0;
+        case 'A': return 1;
+        case 'B': return 2;
+        case 'C': return 3;
+        case 'a': return 0;
+        case 'b': return 1;
+        case 'c': return 2;
+        case 'd': return 3;
+        case '$': return 4;
     }
     return(2);
 }
