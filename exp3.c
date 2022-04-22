@@ -13,8 +13,7 @@ while(s[i]!='\0')
 {
     switch(state)
     {
-        case 0:
-            c=s[i++];
+        case 0:c=s[i++];
         if(c=='a')
         state=1;
         else if(c=='b')
