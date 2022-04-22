@@ -22,31 +22,31 @@ void main()
             else if(s[1] == '<')
                 printf("\n RightShift operator");
             else
-                printf("\nLess than");
+                printf("\n Less than");
             break;
         case'=':
             if(s[1]=='=')
-                printf("\nEqual to");
+                printf("\n Equal to");
             else
-                printf("\nAssignment");
+                printf("\n Assignment");
             break;
         case'!':
             if(s[1]=='=')
-                printf("\nNot Equal");
+                printf("\n Not Equal");
             else
                 printf("\n Bitwise Not");
             break;
         case'&':
             if(s[1]=='&')
-                printf("\nLogical AND");
+                printf("\n Logical AND");
             else
                 printf("\n Bitwise AND");
             break;
         case'|':
             if(s[1]=='|')
-                printf("\nLogical OR");
+                printf("\n Logical OR");
             else
-                printf("\nBitwise OR");
+                printf("\n Bitwise OR");
             break;
         case'+':
             if(s[1] == '=')
