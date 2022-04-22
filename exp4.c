@@ -2,7 +2,7 @@
 #include <conio.h>
 void main()
 {
-    int i=0,flag=0;
+    int i=0,flag;
     char keyw[10][10]={"int","float","break","long","char","for","if","switch","else","while"},a[10];
     printf("Enter Identifier : ");
     gets(a);
