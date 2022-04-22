@@ -16,7 +16,6 @@ void main()
     if(flag==1)
     {
         printf("\n%s is Keyword.",a);
-        
     }
     else
     {
