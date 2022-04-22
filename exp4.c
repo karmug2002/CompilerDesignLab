@@ -36,19 +36,16 @@ void main()
         else
         {
             flag=1;
-            
         }
         
     }
     if(flag==0)
     {
         printf("\n%s is an Identifier.",a);
-        
     }
     else
     {
-        printf("\n%s is Not an Identifier.",a);
-        
+        printf("\n%s is Not an Identifier.",a);  
     }
     getch();
 }
