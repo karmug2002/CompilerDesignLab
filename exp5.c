@@ -34,7 +34,7 @@ void main()
             if(s[1]=='=')
                 printf("\nNot Equal");
             else
-                printf("\n Bit Not");
+                printf("\n Bitwise Not");
             break;
         case'&':
             if(s[1]=='&')
@@ -50,7 +50,7 @@ void main()
             break;
         case'+':
             if(s[1] == '=')
-                printf("\n Plus Equals");
+                printf("\n Addition Assignment");
             else if(s[1] == '+')
                 printf("\n Increment operator");
             else
@@ -82,9 +82,7 @@ void main()
             break;
         case'%':
             if(s[1] == '=')
-                printf("\n Modulus assignment");
-            else if(s[1] == '%')
-                printf("\n Modulus");
+                printf("\n Modulo assignment");
             else
                 printf("\n Modulus");
             break;
