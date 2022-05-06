@@ -1,4 +1,5 @@
 %{
+/* program to recognize a c program */
 int COMMENT=0;
 %}
 identifier [a-zA-Z][a-zA-Z0-9]*
